@@ -1,0 +1,18 @@
+.book-wrapper {
+  width: var(--book-width);
+  height: var(--book-height);
+  box-shadow: var(--book-shadow);
+  border-radius: var(--book-radius);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#book {
+  width: 100%;
+  max-width: 840px;   /* 2 × 420 */
+  height: 600px;
+  margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+/* ===== MEJORA DE NITIDEZ DE IMÁGENES ===== */
+
+.page img,
+.page canvas,
+.page {
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+}

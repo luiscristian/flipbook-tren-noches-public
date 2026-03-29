@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Flipbook – El tren de las noches eternas</title>
+
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/book.css" />
+
+  <!--  NUEVO: loader.css -->
+  <link rel="stylesheet" href="assets/css/loader.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/page-flip/dist/css/page-flip.css">
+</head>
+
+<body>
+
+  <!--  LOADER -->
+  <div id="loading" class="loading">
+    📖 Cargando libro...
+  </div>
+
+  <main class="scene">
+    <section class="book-wrapper">
+      <div id="book"></div>
+    </section>
+  </main>
+
+  <!-- App (ES Module) -->
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

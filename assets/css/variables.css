@@ -1,0 +1,20 @@
+:root {
+  /* Colores base */
+  --color-bg: #0f1115;
+  --color-book-bg: #1b1f27;
+  --color-text: #e6e6e6;
+
+  /* Libro */
+  --book-width: 420px;
+  --book-height: 600px;
+  --book-radius: 6px;
+  --book-shadow: 0 20px 60px rgba(0,0,0,0.6);
+
+  /* Ritmo */
+  --transition-fast: 0.25s ease;
+  --transition-normal: 0.4s ease;
+
+  /* Tipografía */
+  --font-main: 'Georgia', serif;
+  --font-ui: system-ui, sans-serif;
+}
